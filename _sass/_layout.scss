@@ -194,6 +194,8 @@
 
 .post {
     margin-bottom:25px;
+    padding-top: 20px;
+    padding-bottom:10px;
 }
 
 .post-meta {
@@ -219,12 +221,6 @@
     padding: 0 .4rem;
     color: #FFFFFF;
     text-decoration: none;
-}
-
-.post-image-footer{
-    color: gray;
-    font-style: italic;
-    font-size: 14px;
 }
 
 .post-description{
@@ -254,6 +250,12 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-image-footer{
+    color: gray;
+    font-size: 18px;
+    padding: 20px 0px;
 }
 
 .post-content {

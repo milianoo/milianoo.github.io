@@ -3,34 +3,19 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
     {% for post in site.posts %}
-    
-      <li>
-        <div class="row">    
-            <br>
-            <div class="col-md-2 col-sm-3 text-center xs-hidden">
-              <a class="story-img" href="#"><img src="//placehold.it/100" style="width:100px;height:100px" class="img-circle"></a>
-            </div>
-            <div class="col-md-10 col-sm-9 col-xs-12">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" >Post Entry Title</a>
-              <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
-              <div class="row">
-                <div class="col-xs-9">
-                  <p>{{post.description}}</p>
-                  </div>
-                <div class="col-xs-3"></div>
-              </div>
-              <br><br>
-            </div>
+        <article class="post">
+          
+          <header class="post-title">
+            <h1 href="{{ post.url | prepend: site.baseurl }}"><b>{{ post.title }}</b></h1></header>
+          <footer class="post-image-footer">
+            <img class="img-circle" width="40" height="40" src="{{ post.author-image }}"> {{ post.author }} | {{ post.date | date: "%b %-d, %Y" }}
+          </footer>
+          <content class="post-description">{{ post.content | truncatewords: 50 }}</content>
+          <div class="post-meta">
+        
           </div>
+        </article>
           <hr>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
