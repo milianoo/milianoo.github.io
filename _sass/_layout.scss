@@ -161,7 +161,6 @@
 /**
  * Page content
  */
-<<<<<<< HEAD
 .page-header {
     margin-top: 30px;
     padding: $spacing-unit 0;
@@ -176,12 +175,6 @@
     padding: 0 $spacing-unit;
 }
 
-=======
-.page-content {
-    padding: $spacing-unit 0;
-}
-
->>>>>>> 3873d16807eb4d8254ac54d5e75c78065a616afc
 .page-heading {
     font-size: 20px;
 }
@@ -268,11 +261,7 @@
 
     h2 {
         font-size: 32px;
-<<<<<<< HEAD
         
-=======
-
->>>>>>> 3873d16807eb4d8254ac54d5e75c78065a616afc
         @include media-query($on-laptop) {
             font-size: 28px;
         }

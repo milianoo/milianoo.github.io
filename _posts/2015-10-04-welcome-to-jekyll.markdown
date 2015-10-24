@@ -1,18 +1,11 @@
 ---
 layout: post
-<<<<<<< HEAD
 title:  "3 ways to develop a successful blog"
 date:   2015-10-04 11:17:23
 author: Milad Rezazadeh
 author-image : /img/milad.jpg
 categories: jekyll update
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-=======
-title:  "Welcome to Jekyll!"
-description: "this is some post description"
-date:   2015-10-04 05:04:51
-categories: jekyll update
->>>>>>> 3873d16807eb4d8254ac54d5e75c78065a616afc
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
