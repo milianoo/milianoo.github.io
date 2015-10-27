@@ -7,7 +7,9 @@ layout: default
         <article class="post">
           
           <header class="post-title">
-            <h1 href="{{ post.url | prepend: site.baseurl }}"><b>{{ post.title }}</b></h1></header>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <h1><b>{{ post.title }}</b></h1></header>
+            </a>
           <footer class="post-image-footer">
             <img class="img-circle" width="40" height="40" src="{{ post.author-image }}"> {{ post.author }} | {{ post.date | date: "%b %-d, %Y" }}
           </footer>
