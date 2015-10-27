@@ -9,11 +9,13 @@ layout: default
           <header>
             <a href="{{ post.url | prepend: site.baseurl }}">
               <h1><b>{{ post.title }}</b></h1></a>
+            <a href="{{ post.url }}#disqus_thread"></a>
           </header>
-            ooter class="post-image-footer">
-                  la  ="img-circle" width="40" height="40" src="{{ post.author-image }}"> {{ post.author }} | {{ post.date | date: "%b %-d, %Y" }}
-            foot      
-            ontent class="post-description">{{ post.content | truncatewords: 50 }}</content>
+            <footer class="post-image-footer">
+                  <img class ="img-circle" width="40" height="40" src="{{ post.author-image }}"> 
+                  {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}
+            </footer>
+            <content class="post-description">{{ post.content | truncatewords: 50 }}</content>
           <div class="post-meta">
         
           </div>
