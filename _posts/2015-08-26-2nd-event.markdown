@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Docker meetup #2: Scaling Microservices + Optimizing with Ansible"
+date:   2015-08-26 11:17:23
+author: Milad Rezazadeh
+author-image : /img/milad.jpg
+categories: meetup
+description: Our first docker meetup outcomes,
+---
+![Kuala Lumpur Docker Meetup]({{ site.url }}/img/post/docker-2.jpg)
+
+Docker KL is back with another meetup 
+
+We are going to have talk about Scaling up Microservices using docker and automating the process with it. Also we will have speak about using Ansible and docker for optimization your software
+
+Following by networking/chit chat session with pizzas and drinks.
+
+### Speakers
+
+#### Bahman Fakhr Sabahi - Docker - Microservices -scaling 
+
+Bahman is a Cloud Engineer at Exact ADC, working on migration of current Exact Online “Monolithic” Cloud application into a new Microservice oriented architecture with a very enthusiastic team. He is passionate about technology and crave to learn new stuff around it. 
+
+He has more than 8 years of experience in Software Development field with colourful domains and areas from game programming, Artificial Intelligence and data mining to cloud engineering. He studied Hardware engineering and later Computer science. He believes “Coding is Art” and always emphasize on software craftsmanship vs. software engineering.
+
+In his free time he enjoy playing Piano, loves reading books, playing video games, and spend time with his family. He also likes to travel and meet new people.
+
+
+#### Manuel Riel - Docker and Ansible for Optimization and Scientific Computing
+
+DevOps and Python developer for Quantego and various other startups, freelance consultant Manuel originally studied international management, but always had a keen interest in IT. 
+
+He quickly realized that the most exciting things will happen in IT. Today he specializes in Python backend development and deployment. His startups are involved in stochastic optimization for power plants and data mining to match applicants to job openings.
+
+
+He spends his rare free hours hiking the Malaysian jungle and sampling new coffee shops.

@@ -162,6 +162,11 @@ a,a:hover,a:visited {
 }
 
 
+#main{
+    background:#3e3f3a;
+    margin-top:60px;
+}
+
 
 /**
  * Page content
@@ -171,9 +176,22 @@ a,a:hover,a:visited {
     padding: $spacing-unit 0;
 }
  
-.page-content {
-    margin-top: 30px;
-    padding: $spacing-unit 0;
+#page-content {
+    background:white;
+}
+
+#sidebar{
+    padding-top: 30px;
+    height: 100%;
+    color: white;
+}
+
+.btn-primary{
+    background-color: #009ec7 !important;
+}
+
+#sidebar a{
+    color: #009ec7;
 }
 
 .page-post-list{
@@ -199,8 +217,26 @@ a,a:hover,a:visited {
 
 .post {
     margin-bottom:25px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom:10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.post content img {
+    width: 100%;
+}
+
+.post .continue{
+    color: #009ec7 !important;
+    font-weight: bold;
+}
+
+.post .commentcount{
+    color: gray;
+    background: white;
+    font-size: 1em;
+    font-weight: initial;
 }
 
 .post-meta {

@@ -5,17 +5,18 @@ layout: default
 <div class="home">
     {% for post in site.posts %}
         <article class="post">
-          
           <header>
             <a href="{{ post.url | prepend: site.baseurl }}">
               <h1><b>{{ post.title }}</b></h1></a>
-            <a href="{{ post.url }}#disqus_thread"></a>
           </header>
             <footer class="post-image-footer">
                   <img class ="img-circle" width="40" height="40" src="{{ post.author-image }}"> 
-                  {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}
+                  {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }} | <a class="commentcount" href="{{ post.url }}#disqus_thread"></a>
             </footer>
             <content class="post-description">{{ post.content | truncatewords: 50 }}</content>
+            <div>
+              <a class="continue" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-chevron-right"></i> continue reading</a>
+            </div>
           <div class="post-meta">
         
           </div>
