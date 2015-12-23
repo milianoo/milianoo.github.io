@@ -4,7 +4,7 @@ email: me@miladrk.com
 description: > # this means to ignore newlines until "baseurl:"
   here I am going to share my findings and ideas in software development. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://devnest-blog-miladrk-2.c9.io" # the base hostname & protocol for your site
+url: "http://blog.devnest.io" # the base hostname & protocol for your site
 twitter_username: milianoo
 github_username:  milianoo
 
