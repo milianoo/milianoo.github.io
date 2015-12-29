@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Why I love Vim"
+date:   2014-09-14 23:17:23
+author: amireza_fatemi
+link: https://medium.com/@arfo90/the-mystery-of-tomorrow-fb2aee669eed#.qwkjfmiw6
+categories: meetup
+---<div class="section-content">
+        <img src="https://cdn-images-1.medium.com/max/800/1*sZZI3PeycbemERmcXKJ9dQ.gif" width="100%">
+        
+        <h2>Mystery of Tomorrow</h2>
+        <p>I was involving with building new login page for an enterprise cloud app a year ago. We started by communicating with UX team to get layouts and our job was to wire them with backend.</p>
+        <p>We just needed to hook new HTML template with available methods and that is it, call it a day! When the product owner asked us to give him an estimation I was thinking about four days (half of sprint) including all testing and deployment, but
+            suddenly during the session one of our developers had a brilliant idea to make generic login framework which could support any languages! Her idea was building it in a way that we wouldn't need to hardcore the labels ‘tomorrow’ when we introduce
+            any new languages!</p>
+        <p>It was good idea generally but in our context it was just stupid! however everyone in the team bought her generic framework proposal for the sake of tomorrow while they were shouting at me ‘we should do it right, not just done’ and our poor PO
+            was witnessing his time budget being mass murdered and couldn't do anything but to swallow six extra weeks. Just to give you some context, our product never meant to be international. It was a business software which is targeted specific EU
+            countries (England, Netherlands, France and Germany) and only needed to support their languages. It took the product more than a year to enter to any new market to do all of localization (It is impossible to create a generic financial software
+            that fits with any country regulation) plus opening new office, hiring and all sales shit.</p>
+        <p>To me it was just a waste of effort to build such framework for sake of uncertain tomorrow, but when you use word like generic and framework with ‘tomorrow’ in same sentence things work out differently. Anyway It took us six weeks to finish it
+            and It was my last contribution to the project as I left the place two weeks after delivering it however I just heard from my ex-colleagues that they are migrating to new framework therefore they are redoing whole thing, hence that generic
+            login framework never been used!</p>
+        <p>If you are a developer, you know that this is a typical story. we all have such experience that we build something not solely because of actual requirement but based on our prediction that tomorrow we are going to need it and because of that we
+            overengineer things by introducing complex inheritance level, massive number of interface or reading from three different db and config files just to avoid single line of hardcoded value. Just to make sure tomorrow our code can support any
+            kind of situation without any changes and refactoring but in fact it never happens (at least most of the times)!</p>
+        <h3>Agile and MMF</h3>
+        <p>perhaps out of many agile jargon, MMF (Minimum Marketable Features) can help us a lot on this issue at least it does for me. It is the ultimate tool to stop arguments when someone use the word tomorrow or future in meetings and when we tend to
+            overenginner things. you can read about MMF <a href="http://www.netobjectives.com/minimum-marketable-features-mmfs-explained">here</a> but in short, MMF is minimum work that you need to do in order to ship your code and bill the customer. you just need to ask yourself that is it really necessary to add this or that to the PBI in order to deploy the
+            code? for instance if I go back to that meeting a year ago, I would ask the team do we have any Chinese customer and is there any Japanese speaker who is waiting for our new login page as of now.</p>
+        <p>PS: I am not suggesting thinking about architecture and its extensibility is waste of time but to emphasis on violating scope of work and not analyzing requirements realistically.</p>
+    </div>
+</div>
