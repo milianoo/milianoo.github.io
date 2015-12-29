@@ -7,7 +7,11 @@ comments: true
   <header class="post-header">
     
     <h1><b>{{ page.title }}</b></h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {% assign author = site.data.authors[page.author] %}
+    <p class="post-meta">
+      <img class ="img-circle" width="25" height="25" src="{{ author.image }}"> {{ author.name }}, {{ page.date | date: "%b %-d, %Y" }}  
+      {% if page.meta %} • {{ page.meta }}{% endif %}
+    </p>
   </header>
 
   <article class="post-content">

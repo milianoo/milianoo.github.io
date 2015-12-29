@@ -2,8 +2,7 @@
 layout: post
 title:  "Docker meetup #2: Scaling Microservices + Optimizing with Ansible"
 date:   2015-08-26 11:17:23
-author: Milad Rezazadeh
-author-image : /img/milad.jpg
+author: milad_rezazadeh
 categories: meetup
 description: Our first docker meetup outcomes,
 ---

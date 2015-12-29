@@ -10,8 +10,9 @@ layout: default
               <h1><b>{{ post.title }}</b></h1></a>
           </header>
             <footer class="post-image-footer">
-                  <img class ="img-circle" width="40" height="40" src="{{ post.author-image }}"> 
-                  {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }} | <a class="commentcount" href="{{ post.url }}#disqus_thread"></a>
+              {% assign author = site.data.authors[post.author] %}
+                  <img class ="img-circle" width="40" height="40" src="{{ author.image }}"> 
+                  {{ author.name }}, {{ post.date | date: "%b %-d, %Y" }} | <a class="commentcount" href="{{ site.url }}{{ post.url }}#disqus_thread"></a>
             </footer>
             <content class="post-description">{{ post.content | truncatewords: 50 }}</content>
             <div>
