@@ -4,7 +4,6 @@ title:  "Docker meetup #1: Hello Docker"
 date:   2015-07-01 23:17:23
 author: milad_rezazadeh
 categories: meetup
-description: Our first docker meetup outcomes,
 ---
 ![Kuala Lumpur Docker Meetup]({{ site.url }}/img/post/docker-1.jpg)
 

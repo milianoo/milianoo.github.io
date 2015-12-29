@@ -10,7 +10,7 @@ comments: true
     {% assign author = site.data.authors[page.author] %}
     <p class="post-meta">
       <img class ="img-circle" width="25" height="25" src="{{ author.image }}"> {{ author.name }}, {{ page.date | date: "%b %-d, %Y" }}  
-      {% if page.meta %} • {{ page.meta }}{% endif %}
+      {% if page.link %} | <a href="{{ page.link }}">view original <i class="fa fa-file-text"></i> post</a>. {% endif %}
     </p>
   </header>
 
