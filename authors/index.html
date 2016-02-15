@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<h1><strong>Authors</strong></h1>
+<hr>
+<br>
+ 
+{% for author in site.data.authors %}
+    {% assign person = author[1] %}
+    <div class="row bio">
+        <div class="picture">
+            <img class="img-circle" width="80" height="80" src="{{ person.image }}">
+        </div>
+        <div class="details">
+            <h4><strong>{{ person.name }}</strong></h4>
+        </div>
+    </div>
+    
+    
+    
+    
+{% endfor %}

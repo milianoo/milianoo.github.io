@@ -1,8 +1,8 @@
 # Site settings
-title: Blog.Devnest.io
+title: Devnest Blog
 email: me@miladrk.com
 description: > # this means to ignore newlines until "baseurl:"
-  here I am going to share my findings and ideas in software development. 
+  We are a group of software developers, sharing our ideas and experience about software and tech. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.devnest.io" # the base hostname & protocol for your site
 twitter_username: milianoo
