@@ -14,8 +14,14 @@
   
   <meta property="og:image" content="http://blog.devnest.io/img/devnest-fb-og.jpg"/>
   <meta property="fb:app_id" content="898172916963755" /> 
-  <meta property="og:title" content="Devnest blog: sharing by developers" />
-  <meta property="og:description" content="We are a group of software developers, sharing our ideas and experience about software and tech." />
+  
+  <meta content="{{ site.title }}" property="og:site_name">
+  {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+  {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+  {% endif %}
+  
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}" />
